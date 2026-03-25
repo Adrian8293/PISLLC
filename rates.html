@@ -1,269 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="View rates and insurance information for counseling and wellness services at Positive Inner Self in Beaverton, Oregon.">
-  <title>Rates & Insurance — Positive Inner Self</title>
-  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
-  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap)" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rates &amp; Insurance — Positive Inner Self</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🌿</span>
-        <span>Positive Inner Self</span>
-      </a>
-      <nav class="nav" id="nav">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="providers.html">Providers</a></li>
-          <li><a href="rates.html" class="active">Rates</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta">
-          <a href="portal.html" class="btn btn-outline btn-sm">Client Portal</a>
-          <a href="contact.html" class="btn btn-primary btn-sm">Book Now</a>
-        </div>
-        <button class="mobile-menu-btn" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
 
-  <main id="main">
-    <!-- Page Header -->
-    <section class="page-header">
-      <div class="container">
-        <h1>Rates & <em class="text-accent">Insurance</em></h1>
-        <p>Clear information before your first appointment. We believe transparency helps reduce friction and answers a major intake question early.</p>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    Positive Inner Self
+    <span>Mental Health &amp; Wellness · Beaverton, OR</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="providers.html">Providers</a>
+    <a href="rates.html">Rates</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="nav-cta">Book Now</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" id="main">
+  <div class="page-eyebrow">Transparent pricing</div>
+  <h1 class="page-headline">Rates &amp; <em>Insurance</em></h1>
+  <p class="page-sub">Clear information before your first appointment. We believe transparency helps reduce friction and answers a major intake question early.</p>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>Insurance Accepted</span><span>HSA / FSA Accepted</span><span>Sliding Scale Available</span><span>Superbills Provided</span><span>Telehealth Options</span><span>Private Pay</span><span>In-Network Options</span><span>Credit &amp; Debit Cards</span><span>Insurance Accepted</span><span>HSA / FSA Accepted</span><span>Sliding Scale Available</span><span>Superbills Provided</span><span>Telehealth Options</span><span>Private Pay</span><span>In-Network Options</span><span>Credit &amp; Debit Cards</span>
+  </div>
+</div>
+
+<!-- RATES -->
+<div class="rates-section">
+  <div class="section-tag">Session fees</div>
+  <h2 class="section-title" style="margin-bottom:3rem;">Service <em>Rates</em></h2>
+  <div class="rates-grid">
+
+    <div class="rates-table reveal">
+      <div class="rates-table-header">
+        <h3>Counseling Services</h3>
       </div>
-    </section>
-
-    <!-- Rates Section -->
-    <section class="section">
-      <div class="container">
-        <div class="rates-container">
-          <!-- Counseling Rates -->
-          <div class="rates-card">
-            <h3>Counseling Services</h3>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Individual Counseling</div>
-                <div class="rate-duration">20–36 minutes</div>
-              </div>
-              <div class="rate-price">$175</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Individual Counseling</div>
-                <div class="rate-duration">37–53 minutes</div>
-              </div>
-              <div class="rate-price">$200</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Individual Counseling</div>
-                <div class="rate-duration">54–60 minutes</div>
-              </div>
-              <div class="rate-price">$225</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Family Counseling</div>
-                <div class="rate-duration">45–53 minutes</div>
-              </div>
-              <div class="rate-price">$200</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Family Counseling</div>
-                <div class="rate-duration">54–60 minutes</div>
-              </div>
-              <div class="rate-price">$225</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Clinical Supervision</div>
-                <div class="rate-duration">60 minutes</div>
-              </div>
-              <div class="rate-price">$150</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Group / Workshop</div>
-                <div class="rate-duration">60 minutes</div>
-              </div>
-              <div class="rate-price">$75</div>
-            </div>
-          </div>
-
-          <!-- Wellness Rates -->
-          <div class="rates-card">
-            <h3>Wellness Services</h3>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Massage Therapy</div>
-                <div class="rate-duration">60 minutes</div>
-              </div>
-              <div class="rate-price">$120</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Massage Therapy</div>
-                <div class="rate-duration">90 minutes</div>
-              </div>
-              <div class="rate-price">$180</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Acupuncture</div>
-                <div class="rate-duration">Initial consultation</div>
-              </div>
-              <div class="rate-price">$150</div>
-            </div>
-            <div class="rate-item">
-              <div>
-                <div class="rate-name">Acupuncture</div>
-                <div class="rate-duration">Follow-up session</div>
-              </div>
-              <div class="rate-price">$100</div>
-            </div>
-          </div>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Individual Counseling</div>
+        <div class="rates-duration">20–36 min</div>
+        <div class="rates-price">$175</div>
       </div>
-    </section>
-
-    <!-- Insurance Section -->
-    <section class="section" style="background: var(--color-primary-light);">
-      <div class="container">
-        <div class="section-header">
-          <h2>Insurance & <em class="text-accent">Payment</em></h2>
-          <p>We accept many insurance plans and can help clients understand their benefits before getting started.</p>
-        </div>
-        <div class="rates-container">
-          <div class="rates-card">
-            <h3>Payment Options</h3>
-            <div class="insurance-tags">
-              <span class="insurance-tag">✓ Verify Benefits</span>
-              <span class="insurance-tag">✓ In-Network Options</span>
-              <span class="insurance-tag">✓ Private Pay</span>
-              <span class="insurance-tag">✓ Credit / Debit Cards</span>
-              <span class="insurance-tag">✓ Telehealth Options</span>
-              <span class="insurance-tag">✓ HSA / FSA Accepted</span>
-            </div>
-          </div>
-          <div class="rates-card">
-            <h3>Insurance We Work With</h3>
-            <p>We're in-network with several major insurance providers. Coverage varies by plan, so we recommend verifying your specific benefits before your first appointment.</p>
-            <p>We can provide superbills for out-of-network reimbursement if your insurance offers that option.</p>
-            <a href="contact.html" class="btn btn-primary mt-2">Ask About Insurance</a>
-          </div>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Individual Counseling</div>
+        <div class="rates-duration">37–53 min</div>
+        <div class="rates-price">$200</div>
       </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Common <em class="text-accent">Questions</em></h2>
-        </div>
-        <div style="max-width: 800px; margin: 0 auto;">
-          <div class="card mb-3">
-            <h4>How do I verify my insurance benefits?</h4>
-            <p>Contact us with your insurance information and we'll help you understand your coverage. You can also call the member services number on your insurance card and ask about mental health benefits.</p>
-          </div>
-          <div class="card mb-3">
-            <h4>What if I don't have insurance?</h4>
-            <p>We offer private pay options at the rates listed above. We're happy to discuss payment plans or options that might work for your situation.</p>
-          </div>
-          <div class="card mb-3">
-            <h4>Do you offer sliding scale fees?</h4>
-            <p>Availability varies by provider. Please reach out to discuss your situation and we'll do our best to find a solution.</p>
-          </div>
-          <div class="card mb-3">
-            <h4>What is your cancellation policy?</h4>
-            <p>We ask for 24-hour notice for cancellations. Late cancellations or no-shows may be subject to a fee.</p>
-          </div>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Individual Counseling</div>
+        <div class="rates-duration">54–60 min</div>
+        <div class="rates-price">$225</div>
       </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section contact-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Questions about <em class="text-accent">cost?</em></h2>
-          <p>We're here to help you understand your options and find a path forward.</p>
-        </div>
-        <div class="text-center">
-          <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Family Counseling</div>
+        <div class="rates-duration">45–53 min</div>
+        <div class="rates-price">$200</div>
       </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <span class="logo-icon">🌿</span>
-            <span>Positive Inner Self</span>
-          </a>
-          <p>Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
-        </div>
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul class="footer-links">
-            <li><a href="services.html#individual">Individual Counseling</a></li>
-            <li><a href="services.html#family">Family Counseling</a></li>
-            <li><a href="services.html#couples">Couples Counseling</a></li>
-            <li><a href="services.html#groups">Groups & Workshops</a></li>
-            <li><a href="services.html#wellness">Wellness Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Practice</h4>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="providers.html">Our Providers</a></li>
-            <li><a href="rates.html">Rates & Insurance</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portal.html">Client Portal</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Connect</h4>
-          <ul class="footer-links">
-            <li><a href="tel:5034613910">(503) 461-3910</a></li>
-            <li><a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a></li>
-            <li><a href="[maps.google.com](https://maps.google.com)" target="_blank" rel="noopener">Get Directions</a></li>
-          </ul>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Family Counseling</div>
+        <div class="rates-duration">54–60 min</div>
+        <div class="rates-price">$225</div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Positive Inner Self. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Facebook">📘</a>
-          <a href="#" aria-label="Instagram">📷</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
+      <div class="rates-row">
+        <div class="rates-service">Clinical Supervision</div>
+        <div class="rates-duration">60 min</div>
+        <div class="rates-price">$150</div>
+      </div>
+      <div class="rates-row">
+        <div class="rates-service">Group / Workshop</div>
+        <div class="rates-duration">60 min</div>
+        <div class="rates-price">$75</div>
       </div>
     </div>
-  </footer>
+
+    <div class="rates-table reveal reveal-delay-1">
+      <div class="rates-table-header">
+        <h3>Wellness Services</h3>
+      </div>
+      <div class="rates-row">
+        <div class="rates-service">Massage Therapy</div>
+        <div class="rates-duration">60 min</div>
+        <div class="rates-price">$120</div>
+      </div>
+      <div class="rates-row">
+        <div class="rates-service">Massage Therapy</div>
+        <div class="rates-duration">90 min</div>
+        <div class="rates-price">$180</div>
+      </div>
+      <div class="rates-row">
+        <div class="rates-service">Acupuncture</div>
+        <div class="rates-duration">Initial consult</div>
+        <div class="rates-price">$150</div>
+      </div>
+      <div class="rates-row">
+        <div class="rates-service">Acupuncture</div>
+        <div class="rates-duration">Follow-up</div>
+        <div class="rates-price">$100</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- INSURANCE -->
+<div class="insurance-section">
+  <div class="section-tag">Coverage options</div>
+  <h2 class="section-title" style="margin-bottom:0;">Insurance &amp; <em>Payment</em></h2>
+  <div class="insurance-grid">
+    <div class="reveal">
+      <p style="font-size:0.95rem; color:var(--bark-lt); line-height:1.8; margin-top:1.5rem;">We accept many insurance plans and can help clients understand their benefits before getting started. We're in-network with several major insurance providers. Coverage varies by plan, so we recommend verifying your specific benefits before your first appointment.</p>
+      <p style="font-size:0.95rem; color:var(--bark-lt); line-height:1.8; margin-top:1rem;">We can provide superbills for out-of-network reimbursement if your insurance offers that option.</p>
+      <div style="margin-top:2rem;">
+        <a href="contact.html" class="btn-primary">Ask About Insurance</a>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:400; color:var(--bark); margin-bottom:1.2rem; margin-top:1.5rem;">Payment Options</h3>
+      <div class="payment-badges">
+        <div class="payment-badge">Verify Benefits</div>
+        <div class="payment-badge">In-Network Options</div>
+        <div class="payment-badge">Private Pay</div>
+        <div class="payment-badge">Credit / Debit Cards</div>
+        <div class="payment-badge">Telehealth Options</div>
+        <div class="payment-badge">HSA / FSA Accepted</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section">
+  <div class="section-tag">Common questions</div>
+  <h2 class="section-title" style="margin-bottom:0;">Common <em>Questions</em></h2>
+  <div class="faq-list">
+
+    <div class="faq-item reveal">
+      <div class="faq-q">How do I verify my insurance benefits?</div>
+      <div class="faq-a">Contact us with your insurance information and we'll help you understand your coverage. You can also call the member services number on your insurance card and ask about mental health benefits.</div>
+    </div>
+
+    <div class="faq-item reveal reveal-delay-1">
+      <div class="faq-q">What if I don't have insurance?</div>
+      <div class="faq-a">We offer private pay options at the rates listed above. We're happy to discuss payment plans or options that might work for your situation.</div>
+    </div>
+
+    <div class="faq-item reveal reveal-delay-2">
+      <div class="faq-q">Do you offer sliding scale fees?</div>
+      <div class="faq-a">Availability varies by provider. Please reach out to discuss your situation and we'll do our best to find a solution that works for you.</div>
+    </div>
+
+    <div class="faq-item reveal reveal-delay-3">
+      <div class="faq-q">What is your cancellation policy?</div>
+      <div class="faq-a">We ask for 24-hour notice for cancellations. Late cancellations or no-shows may be subject to a fee. Please contact us as soon as possible if you need to reschedule.</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="booking-cta">
+  <div class="reveal">
+    <div class="cta-eyebrow">We're here to help</div>
+    <h2 class="cta-title">Questions about <em>cost?</em></h2>
+    <p class="cta-body">We're here to help you understand your options and find a path forward. Don't let finances be a barrier — reach out and let's talk.</p>
+    <div class="cta-checks">
+      <div class="cta-check"><span>✓</span> Insurance verification help</div>
+      <div class="cta-check"><span>✓</span> Sliding scale available</div>
+      <div class="cta-check"><span>✓</span> Superbills provided</div>
+    </div>
+  </div>
+  <div class="cta-actions reveal reveal-delay-2">
+    <a href="contact.html" class="btn-primary" style="font-size:0.9rem; padding:1.1rem 2.5rem;">Contact Us</a>
+    <a href="tel:5034613910" class="cta-phone">📞 (503) 461-3910</a>
+    <div class="cta-note">6700 SW 105th Ave Suite 215, Beaverton OR 97008</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="index.html" class="footer-logo">Positive Inner Self</a>
+      <p class="footer-tagline">Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">ig</a>
+        <a href="#" class="social-btn">in</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="services.html#individual">Individual Counseling</a>
+      <a href="services.html#family">Family Counseling</a>
+      <a href="services.html#couples">Couples Counseling</a>
+      <a href="services.html#groups">Groups &amp; Workshops</a>
+      <a href="services.html#wellness">Wellness Services</a>
+    </div>
+    <div class="footer-col">
+      <h4>Practice</h4>
+      <a href="about.html">About Us</a>
+      <a href="providers.html">Our Providers</a>
+      <a href="rates.html">Rates &amp; Insurance</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html">Client Portal</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        6700 SW 105th Ave<br>Suite 215<br>Beaverton, OR 97008<br><br>
+        <a href="tel:5034613910">(503) 461-3910</a><br>
+        <a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Positive Inner Self. All rights reserved.</span>
+    <div style="display:flex; gap:1.5rem;">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
