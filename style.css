@@ -69,8 +69,7 @@ nav.scrolled {
   border-bottom: 1px solid rgba(74,124,89,0.12);
 }
 .nav-logo img {
-  height: 50px;
-  max-height: 50px;
+  height: 100px;
   width: auto;
   display: block;
 }
