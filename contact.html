@@ -1,218 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Positive Inner Self to schedule an appointment or ask questions about our counseling and wellness services in Beaverton, Oregon.">
-  <title>Contact Us — Positive Inner Self</title>
-  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
-  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap)" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Positive Inner Self</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🌿</span>
-        <span>Positive Inner Self</span>
-      </a>
-      <nav class="nav" id="nav">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="providers.html">Providers</a></li>
-          <li><a href="rates.html">Rates</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-        <div class="nav-cta">
-          <a href="portal.html" class="btn btn-outline btn-sm">Client Portal</a>
-          <a href="contact.html" class="btn btn-primary btn-sm">Book Now</a>
-        </div>
-        <button class="mobile-menu-btn" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
 
-  <main id="main">
-    <!-- Page Header -->
-    <section class="page-header">
-      <div class="container">
-        <h1>Ready to take the next <em class="text-accent">step?</em></h1>
-        <p>Reach out to schedule an appointment, ask questions, or learn more about how we can support you.</p>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    Positive Inner Self
+    <span>Mental Health &amp; Wellness · Beaverton, OR</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="providers.html">Providers</a>
+    <a href="rates.html">Rates</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="nav-cta">Book Now</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" id="main">
+  <div class="page-eyebrow">We'd love to hear from you</div>
+  <h1 class="page-headline">Ready to take the next <em>step?</em></h1>
+  <p class="page-sub">Reach out to schedule an appointment, ask questions, or learn more about how we can support you.</p>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>Free Initial Consultation</span><span>In-Person Available</span><span>Telehealth Available</span><span>1 Business Day Response</span><span>Insurance Accepted</span><span>New Clients Welcome</span><span>Free Initial Consultation</span><span>In-Person Available</span><span>Telehealth Available</span><span>1 Business Day Response</span><span>Insurance Accepted</span><span>New Clients Welcome</span>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div class="contact-section">
+
+  <!-- FORM -->
+  <div class="contact-form-wrap reveal">
+    <div class="contact-form-title">Request an Appointment</div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section">
-      <div class="container">
-        <div class="contact-grid">
-          <div class="contact-form">
-            <h3 style="margin-bottom: 1.5rem;">Request an Appointment</h3>
-            <form action="#" method="POST">
-              <div class="form-group">
-                <label for="name">Full Name *</label>
-                <input type="text" id="name" name="name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone">
-              </div>
-              <div class="form-group">
-                <label for="dob">Date of Birth</label>
-                <input type="date" id="dob" name="dob">
-              </div>
-              <div class="form-group">
-                <label for="contact-method">Preferred Contact Method</label>
-                <select id="contact-method" name="contact-method">
-                  <option value="">Select one...</option>
-                  <option value="email">Email</option>
-                  <option value="phone">Phone</option>
-                  <option value="either">Either</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="service">Service Interest</label>
-                <select id="service" name="service">
-                  <option value="">Select a service...</option>
-                  <option value="individual">Individual Counseling</option>
-                  <option value="family">Family Counseling</option>
-                  <option value="couples">Couples Counseling</option>
-                  <option value="group">Groups & Workshops</option>
-                  <option value="supervision">Clinical Supervision</option>
-                  <option value="coaching">Parenting & Life Coaching</option>
-                  <option value="acupuncture">Acupuncture</option>
-                  <option value="massage">Massage Therapy</option>
-                  <option value="other">Other / Not Sure</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="message">Message or Insurance Question</label>
-                <textarea id="message" name="message" rows="4" placeholder="Tell us a little about what brings you here, or ask any questions you have..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Submit Request</button>
-            </form>
-          </div>
-          <div class="contact-info">
-            <h3 style="margin-bottom: 1.5rem;">Get in Touch</h3>
-            <div class="contact-item">
-              <div class="contact-icon">📞</div>
-              <div>
-                <h4>Phone</h4>
-                <a href="tel:5034613910">(503) 461-3910</a>
-                <p style="font-size: 0.875rem; margin-top: 0.25rem;">Leave a message and we'll return your call within one business day.</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">✉</div>
-              <div>
-                <h4>Email</h4>
-                <a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">📍</div>
-              <div>
-                <h4>Location</h4>
-                <p>6700 SW 105th Ave, Suite 215<br>Beaverton, OR 97008</p>
-                <a href="[maps.google.com](https://maps.google.com/?q=6700+SW+105th+Ave+Suite+215+Beaverton+OR+97008)" target="_blank" rel="noopener" class="btn btn-outline btn-sm mt-2">Get Directions</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">🕐</div>
-              <div>
-                <h4>Hours</h4>
-                <p>By appointment only<br>In-person & telehealth available</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">💻</div>
-              <div>
-                <h4>Telehealth</h4>
-                <p>Secure video sessions available for clients throughout Oregon.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Map Section (Placeholder) -->
-    <section class="section" style="background: var(--color-primary-light); padding: 3rem 0;">
-      <div class="container">
-        <div style="background: var(--color-white); border-radius: var(--radius-lg); height: 300px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--color-border);">
-          <div style="text-align: center;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
-            <p><strong>6700 SW 105th Ave, Suite 215</strong></p>
-            <p>Beaverton, OR 97008</p>
-            <a href="[maps.google.com](https://maps.google.com/?q=6700+SW+105th+Ave+Suite+215+Beaverton+OR+97008)" target="_blank" rel="noopener" class="btn btn-primary btn-sm mt-2">Open in Google Maps</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <span class="logo-icon">🌿</span>
-            <span>Positive Inner Self</span>
-          </a>
-          <p>Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
-        </div>
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul class="footer-links">
-            <li><a href="services.html#individual">Individual Counseling</a></li>
-            <li><a href="services.html#family">Family Counseling</a></li>
-            <li><a href="services.html#couples">Couples Counseling</a></li>
-            <li><a href="services.html#groups">Groups & Workshops</a></li>
-            <li><a href="services.html#wellness">Wellness Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Practice</h4>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="providers.html">Our Providers</a></li>
-            <li><a href="rates.html">Rates & Insurance</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portal.html">Client Portal</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Connect</h4>
-          <ul class="footer-links">
-            <li><a href="tel:5034613910">(503) 461-3910</a></li>
-            <li><a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a></li>
-            <li><a href="[maps.google.com](https://maps.google.com)" target="_blank" rel="noopener">Get Directions</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Positive Inner Self. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Facebook">📘</a>
-          <a href="#" aria-label="Instagram">📷</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
       </div>
     </div>
-  </footer>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="(503) 000-0000">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="contact-method">Preferred Contact Method</label>
+        <select id="contact-method" name="contact-method">
+          <option value="">Select one...</option>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+          <option value="either">Either</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="service">Service Interest</label>
+        <select id="service" name="service">
+          <option value="">Select a service...</option>
+          <option>Individual Counseling</option>
+          <option>Family Counseling</option>
+          <option>Couples Counseling</option>
+          <option>Groups &amp; Workshops</option>
+          <option>Clinical Supervision</option>
+          <option>Parenting &amp; Life Coaching</option>
+          <option>Acupuncture</option>
+          <option>Massage Therapy</option>
+          <option>Other / Not Sure</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="message">Message or Insurance Question</label>
+      <textarea id="message" name="message" placeholder="Tell us a bit about what you're looking for, any insurance questions, or any other information you'd like to share..."></textarea>
+    </div>
+    <button class="form-submit" type="button" onclick="this.textContent='✓ Request Submitted — We\'ll be in touch soon!'; this.style.background='var(--sage-deep)';">Submit Request</button>
+  </div>
+
+  <!-- CONTACT INFO -->
+  <div class="contact-info reveal reveal-delay-1">
+
+    <div class="contact-info-item">
+      <div class="ci-icon">📞</div>
+      <div>
+        <div class="ci-label">Phone</div>
+        <div class="ci-value"><a href="tel:5034613910">(503) 461-3910</a></div>
+        <div class="ci-sub">Leave a message and we'll return your call within one business day.</div>
+      </div>
+    </div>
+
+    <div class="contact-info-item">
+      <div class="ci-icon">✉</div>
+      <div>
+        <div class="ci-label">Email</div>
+        <div class="ci-value"><a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a></div>
+      </div>
+    </div>
+
+    <div class="contact-info-item">
+      <div class="ci-icon">📍</div>
+      <div>
+        <div class="ci-label">Location</div>
+        <div class="ci-value">6700 SW 105th Ave, Suite 215<br>Beaverton, OR 97008</div>
+        <div class="ci-sub" style="margin-top:0.5rem;"><a href="https://maps.google.com/?q=6700+SW+105th+Ave+Suite+215+Beaverton+OR+97008" target="_blank" style="color:var(--sage); text-decoration:none; font-size:0.8rem;">Get Directions →</a></div>
+      </div>
+    </div>
+
+    <div class="contact-info-item">
+      <div class="ci-icon">🕐</div>
+      <div>
+        <div class="ci-label">Hours</div>
+        <div class="ci-value">By appointment only</div>
+        <div class="ci-sub">In-person &amp; telehealth available</div>
+      </div>
+    </div>
+
+    <div class="contact-info-item">
+      <div class="ci-icon">💻</div>
+      <div>
+        <div class="ci-label">Telehealth</div>
+        <div class="ci-value">Secure video sessions</div>
+        <div class="ci-sub">Available for clients throughout Oregon.</div>
+      </div>
+    </div>
+
+    <!-- QUICK STATS -->
+    <div style="background:var(--sage-deep); border-radius:16px; padding:1.5rem; display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+      <div style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:300; color:white; line-height:1;">1 day</div>
+        <div style="font-size:0.72rem; color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:0.08em; margin-top:0.25rem;">Response time</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:300; color:white; line-height:1;">Free</div>
+        <div style="font-size:0.72rem; color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:0.08em; margin-top:0.25rem;">Initial consult</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- MAP PLACEHOLDER -->
+<div class="map-placeholder reveal">
+  <span class="map-pin">📍</span>
+  <span class="map-label">6700 SW 105th Ave, Suite 215 · Beaverton, OR 97008</span>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="index.html" class="footer-logo">Positive Inner Self</a>
+      <p class="footer-tagline">Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">ig</a>
+        <a href="#" class="social-btn">in</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="services.html#individual">Individual Counseling</a>
+      <a href="services.html#family">Family Counseling</a>
+      <a href="services.html#couples">Couples Counseling</a>
+      <a href="services.html#groups">Groups &amp; Workshops</a>
+      <a href="services.html#wellness">Wellness Services</a>
+    </div>
+    <div class="footer-col">
+      <h4>Practice</h4>
+      <a href="about.html">About Us</a>
+      <a href="providers.html">Our Providers</a>
+      <a href="rates.html">Rates &amp; Insurance</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html">Client Portal</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        6700 SW 105th Ave<br>Suite 215<br>Beaverton, OR 97008<br><br>
+        <a href="tel:5034613910">(503) 461-3910</a><br>
+        <a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Positive Inner Self. All rights reserved.</span>
+    <div style="display:flex; gap:1.5rem;">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
