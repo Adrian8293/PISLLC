@@ -69,9 +69,16 @@ nav.scrolled {
   border-bottom: 1px solid rgba(74,124,89,0.12);
 }
 .nav-logo img {
-  height: 50px;     /* 🔥 adjust this */
+  height: 50px;
+  max-height: 50px;
   width: auto;
   display: block;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  height: 50px;        /* prevents stretching */
+  overflow: hidden;    /* hides extra image space */
 }
 .nav-logo span { display: block; font-size: 0.65rem; font-family: 'DM Sans', sans-serif; font-weight: 300; color: var(--stone); letter-spacing: 0.15em; text-transform: uppercase; margin-top: 1px; }
 .nav-links { display: flex; align-items: center; gap: 2.5rem; }
