@@ -1,232 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Meet the providers at Positive Inner Self — licensed therapists, counselors, and wellness practitioners in Beaverton, Oregon.">
-  <title>Our Providers — Positive Inner Self</title>
-  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
-  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap)" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Providers — Positive Inner Self</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🌿</span>
-        <span>Positive Inner Self</span>
-      </a>
-      <nav class="nav" id="nav">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="providers.html" class="active">Providers</a></li>
-          <li><a href="rates.html">Rates</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta">
-          <a href="portal.html" class="btn btn-outline btn-sm">Client Portal</a>
-          <a href="contact.html" class="btn btn-primary btn-sm">Book Now</a>
-        </div>
-        <button class="mobile-menu-btn" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
 
-  <main id="main">
-    <!-- Page Header -->
-    <section class="page-header">
-      <div class="container">
-        <h1>Our <em class="text-accent">Providers</em></h1>
-        <p>A team built around fit and connection. We help clients trust the practice and imagine who they may want to work with.</p>
-      </div>
-    </section>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    Positive Inner Self
+    <span>Mental Health &amp; Wellness · Beaverton, OR</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="providers.html">Providers</a>
+    <a href="rates.html">Rates</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="nav-cta">Book Now</a>
+  </div>
+</nav>
 
-    <!-- Featured Provider -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Leadership & <em class="text-accent">Direction</em></h2>
-        </div>
-        <div class="providers-grid">
-          <div class="card provider-card" style="grid-column: span 2;">
-            <div class="provider-avatar" style="width: 120px; height: 120px; font-size: 3rem;">👩‍⚕️</div>
-            <h4>Adrienne Buhacoff</h4>
-            <p class="provider-role">LCSW · Clinic Director</p>
-            <p>Adrienne founded Positive Inner Self with a vision for compassionate, client-centered care. She brings years of experience in clinical practice and leadership, with a focus on creating a welcoming environment for both clients and providers.</p>
-            <p><strong>Specialties:</strong> Anxiety, depression, trauma, life transitions, clinical supervision</p>
-            <span class="provider-badge">Featured Provider</span>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- PAGE HERO -->
+<section class="page-hero" id="main">
+  <div class="page-eyebrow">Built around fit &amp; connection</div>
+  <h1 class="page-headline">Our <em>Providers</em></h1>
+  <p class="page-sub">A team built around fit and connection. Meet the providers who make up Positive Inner Self — each bringing unique specialties, backgrounds, and a shared commitment to compassionate care.</p>
+</section>
 
-    <!-- Counseling Providers -->
-    <section class="section" style="background: var(--color-primary-light);">
-      <div class="container">
-        <div class="section-header">
-          <h2>Counseling <em class="text-accent">Team</em></h2>
-        </div>
-        <div class="providers-grid">
-          <div class="card provider-card">
-            <div class="provider-avatar">🧑‍⚕️</div>
-            <h4>Andrew Schwager</h4>
-            <p class="provider-role">LCSW</p>
-            <p>Therapy support for individuals navigating life stress, mental health concerns, and relationships.</p>
-            <p><strong>Specialties:</strong> Anxiety, depression, stress management, relationships</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">👩‍💼</div>
-            <h4>Sarah Mitchell</h4>
-            <p class="provider-role">LPC</p>
-            <p>Supporting teens and adults through anxiety, depression, and identity exploration.</p>
-            <p><strong>Specialties:</strong> Adolescents, LGBTQ+ affirming, anxiety, depression</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">🧑‍🏫</div>
-            <h4>Michael Chen</h4>
-            <p class="provider-role">LCSW</p>
-            <p>Specializing in family systems and supporting parents through challenging transitions.</p>
-            <p><strong>Specialties:</strong> Family therapy, parenting, blended families, co-parenting</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">👩‍⚕️</div>
-            <h4>Jennifer Park</h4>
-            <p class="provider-role">CSWA</p>
-            <p>Working with individuals on trauma recovery, self-esteem, and personal growth.</p>
-            <p><strong>Specialties:</strong> Trauma, PTSD, self-esteem, mindfulness</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">🧑‍⚕️</div>
-            <h4>David Rodriguez</h4>
-            <p class="provider-role">LPC</p>
-            <p>Helping couples and individuals build stronger communication and connection.</p>
-            <p><strong>Specialties:</strong> Couples therapy, communication, relationship issues</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">👩‍🎓</div>
-            <h4>Emily Thompson</h4>
-            <p class="provider-role">CSWA</p>
-            <p>Supporting children and families through play therapy and parent coaching.</p>
-            <p><strong>Specialties:</strong> Child therapy, play therapy, parenting support</p>
-            <span class="provider-badge">Accepting Inquiries</span>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>LCSW</span><span>LPC</span><span>CSWA</span><span>LMT</span><span>LAc</span><span>Trauma-Informed</span><span>LGBTQIA+ Affirming</span><span>Child &amp; Teen Therapy</span><span>Couples Therapy</span><span>Clinical Supervision</span><span>LCSW</span><span>LPC</span><span>CSWA</span><span>LMT</span><span>LAc</span><span>Trauma-Informed</span><span>LGBTQIA+ Affirming</span><span>Child &amp; Teen Therapy</span><span>Couples Therapy</span><span>Clinical Supervision</span>
+  </div>
+</div>
 
-    <!-- Wellness Providers -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Wellness <em class="text-accent">Team</em></h2>
-        </div>
-        <div class="providers-grid">
-          <div class="card provider-card">
-            <div class="provider-avatar">💆</div>
-            <h4>Erin Shimp</h4>
-            <p class="provider-role">LMT · Massage Therapist</p>
-            <p>Bowenwork, Swedish massage, and deep tissue support for whole-body wellness.</p>
-            <p><strong>Specialties:</strong> Bowen Therapy, Swedish Massage, Deep Tissue, relaxation</p>
-            <span class="provider-badge">Wellness Services</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">🌿</div>
-            <h4>Lisa Wang</h4>
-            <p class="provider-role">LAc · Acupuncturist</p>
-            <p>Holistic acupuncture treatments for stress, pain management, and overall wellness.</p>
-            <p><strong>Specialties:</strong> Stress relief, pain management, trauma support, balance</p>
-            <span class="provider-badge">Wellness Services</span>
-          </div>
-          <div class="card provider-card">
-            <div class="provider-avatar">💆‍♂️</div>
-            <h4>Marcus Johnson</h4>
-            <p class="provider-role">LMT · Massage Therapist</p>
-            <p>Therapeutic bodywork focusing on injury recovery and chronic pain relief.</p>
-            <p><strong>Specialties:</strong> Sports massage, injury recovery, chronic pain</p>
-            <span class="provider-badge">Wellness Services</span>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- LEADERSHIP -->
+<div class="providers-full">
+  <div class="providers-section-header reveal">
+    <div class="section-tag">Clinic director</div>
+    <h2 class="providers-section-title">Leadership &amp; <em>Direction</em></h2>
+  </div>
+  <div class="providers-detail-grid">
 
-    <!-- CTA Section -->
-    <section class="section contact-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Find your <em class="text-accent">fit</em></h2>
-          <p>Not sure which provider is right for you? Reach out and we'll help match you with someone who fits your needs.</p>
+    <div class="provider-detail-card featured reveal">
+      <div class="pdc-photo">👩‍⚕️</div>
+      <div class="pdc-info">
+        <div class="pdc-badge">Featured Provider</div>
+        <div class="pdc-name">Adrienne Buhacoff</div>
+        <div class="pdc-cred">LCSW · Clinic Director</div>
+        <div class="pdc-bio">Adrienne founded Positive Inner Self with a vision for compassionate, client-centered care. She brings years of experience in clinical practice and leadership, with a focus on creating a welcoming environment for both clients and providers.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Anxiety, depression, trauma, life transitions, clinical supervision
         </div>
-        <div class="text-center">
-          <a href="contact.html" class="btn btn-primary btn-lg">Request an Appointment</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <span class="logo-icon">🌿</span>
-            <span>Positive Inner Self</span>
-          </a>
-          <p>Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
-        </div>
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul class="footer-links">
-            <li><a href="services.html#individual">Individual Counseling</a></li>
-            <li><a href="services.html#family">Family Counseling</a></li>
-            <li><a href="services.html#couples">Couples Counseling</a></li>
-            <li><a href="services.html#groups">Groups & Workshops</a></li>
-            <li><a href="services.html#wellness">Wellness Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Practice</h4>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="providers.html">Our Providers</a></li>
-            <li><a href="rates.html">Rates & Insurance</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portal.html">Client Portal</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Connect</h4>
-          <ul class="footer-links">
-            <li><a href="tel:5034613910">(503) 461-3910</a></li>
-            <li><a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a></li>
-            <li><a href="[maps.google.com](https://maps.google.com)" target="_blank" rel="noopener">Get Directions</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Positive Inner Self. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Facebook">📘</a>
-          <a href="#" aria-label="Instagram">📷</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
       </div>
     </div>
-  </footer>
+
+  </div>
+
+  <!-- COUNSELING TEAM -->
+  <div class="providers-section-header reveal" style="margin-top:2rem;">
+    <div class="section-tag">Therapy &amp; counseling</div>
+    <h2 class="providers-section-title">Counseling <em>Team</em></h2>
+  </div>
+  <div class="providers-detail-grid">
+
+    <div class="provider-detail-card reveal">
+      <div class="pdc-photo">🧑‍⚕️</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">Andrew Schwager</div>
+        <div class="pdc-cred">LCSW</div>
+        <div class="pdc-bio">Therapy support for individuals navigating life stress, mental health concerns, and relationships.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Anxiety, depression, stress management, relationships
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-1">
+      <div class="pdc-photo">👩‍💼</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">Sarah Mitchell</div>
+        <div class="pdc-cred">LPC</div>
+        <div class="pdc-bio">Supporting teens and adults through anxiety, depression, and identity exploration.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Adolescents, LGBTQ+ affirming, anxiety, depression
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-2">
+      <div class="pdc-photo">🧑‍🏫</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">Michael Chen</div>
+        <div class="pdc-cred">LCSW</div>
+        <div class="pdc-bio">Specializing in family systems and supporting parents through challenging transitions.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Family therapy, parenting, blended families, co-parenting
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal">
+      <div class="pdc-photo">👩‍⚕️</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">Jennifer Park</div>
+        <div class="pdc-cred">CSWA</div>
+        <div class="pdc-bio">Working with individuals on trauma recovery, self-esteem, and personal growth.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Trauma, PTSD, self-esteem, mindfulness
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-1">
+      <div class="pdc-photo">🧑‍⚕️</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">David Rodriguez</div>
+        <div class="pdc-cred">LPC</div>
+        <div class="pdc-bio">Helping couples and individuals build stronger communication and connection.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Couples therapy, communication, relationship issues
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-2">
+      <div class="pdc-photo">👩‍🎓</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage-deep);">Accepting Inquiries</div>
+        <div class="pdc-name">Emily Thompson</div>
+        <div class="pdc-cred">CSWA</div>
+        <div class="pdc-bio">Supporting children and families through play therapy and parent coaching.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Child therapy, play therapy, parenting support
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- WELLNESS TEAM -->
+  <div class="providers-section-header reveal" style="margin-top:2rem;">
+    <div class="section-tag">Holistic well-being</div>
+    <h2 class="providers-section-title">Wellness <em>Team</em></h2>
+  </div>
+  <div class="providers-detail-grid">
+
+    <div class="provider-detail-card reveal">
+      <div class="pdc-photo" style="background: linear-gradient(135deg, var(--blush), var(--mist));">💆</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage);">Wellness Services</div>
+        <div class="pdc-name">Erin Shimp</div>
+        <div class="pdc-cred">LMT · Massage Therapist</div>
+        <div class="pdc-bio">Bowenwork, Swedish massage, and deep tissue support for whole-body wellness.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Bowen Therapy, Swedish Massage, Deep Tissue, relaxation
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-1">
+      <div class="pdc-photo" style="background: linear-gradient(135deg, var(--blush), var(--mist));">🌿</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage);">Wellness Services</div>
+        <div class="pdc-name">Lisa Wang</div>
+        <div class="pdc-cred">LAc · Acupuncturist</div>
+        <div class="pdc-bio">Holistic acupuncture treatments for stress, pain management, and overall wellness.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Stress relief, pain management, trauma support, balance
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+    <div class="provider-detail-card reveal reveal-delay-2">
+      <div class="pdc-photo" style="background: linear-gradient(135deg, var(--blush), var(--mist));">💆‍♂️</div>
+      <div class="pdc-info">
+        <div class="pdc-badge" style="background:var(--sage);">Wellness Services</div>
+        <div class="pdc-name">Marcus Johnson</div>
+        <div class="pdc-cred">LMT · Massage Therapist</div>
+        <div class="pdc-bio">Therapeutic bodywork focusing on injury recovery and chronic pain relief.</div>
+        <div class="pdc-specs">
+          <strong>Specialties</strong>
+          Sports massage, injury recovery, chronic pain
+        </div>
+        <div class="pdc-avail"><div class="avail-dot"></div> Accepting clients</div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FIND YOUR FIT CTA -->
+<section class="booking-cta">
+  <div class="reveal">
+    <div class="cta-eyebrow">We'll help you find the right match</div>
+    <h2 class="cta-title">Find your <em>fit</em></h2>
+    <p class="cta-body">Not sure which provider is right for you? Reach out and we'll help match you with someone who fits your needs, goals, and preferences.</p>
+    <div class="cta-checks">
+      <div class="cta-check"><span>✓</span> Free initial consultation</div>
+      <div class="cta-check"><span>✓</span> In-person &amp; telehealth</div>
+      <div class="cta-check"><span>✓</span> Insurance accepted</div>
+    </div>
+  </div>
+  <div class="cta-actions reveal reveal-delay-2">
+    <a href="contact.html" class="btn-primary" style="font-size:0.9rem; padding:1.1rem 2.5rem;">Request an Appointment</a>
+    <a href="tel:5034613910" class="cta-phone">📞 (503) 461-3910</a>
+    <div class="cta-note">6700 SW 105th Ave Suite 215, Beaverton OR 97008</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="index.html" class="footer-logo">Positive Inner Self</a>
+      <p class="footer-tagline">Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">ig</a>
+        <a href="#" class="social-btn">in</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="services.html#individual">Individual Counseling</a>
+      <a href="services.html#family">Family Counseling</a>
+      <a href="services.html#couples">Couples Counseling</a>
+      <a href="services.html#groups">Groups &amp; Workshops</a>
+      <a href="services.html#wellness">Wellness Services</a>
+    </div>
+    <div class="footer-col">
+      <h4>Practice</h4>
+      <a href="about.html">About Us</a>
+      <a href="providers.html">Our Providers</a>
+      <a href="rates.html">Rates &amp; Insurance</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html">Client Portal</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        6700 SW 105th Ave<br>Suite 215<br>Beaverton, OR 97008<br><br>
+        <a href="tel:5034613910">(503) 461-3910</a><br>
+        <a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Positive Inner Self. All rights reserved.</span>
+    <div style="display:flex; gap:1.5rem;">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
