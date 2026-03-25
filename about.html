@@ -1,192 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about Positive Inner Self — our mission, values, and commitment to compassionate care in Beaverton, Oregon.">
-  <title>About Us — Positive Inner Self</title>
-  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
-  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap)" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — Positive Inner Self</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🌿</span>
-        <span>Positive Inner Self</span>
-      </a>
-      <nav class="nav" id="nav">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="providers.html">Providers</a></li>
-          <li><a href="rates.html">Rates</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta">
-          <a href="portal.html" class="btn btn-outline btn-sm">Client Portal</a>
-          <a href="contact.html" class="btn btn-primary btn-sm">Book Now</a>
-        </div>
-        <button class="mobile-menu-btn" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    Positive Inner Self
+    <span>Mental Health &amp; Wellness · Beaverton, OR</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="providers.html">Providers</a>
+    <a href="rates.html">Rates</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="nav-cta">Book Now</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" id="main">
+  <div class="page-eyebrow">Founded with care</div>
+  <h1 class="page-headline">A calm, welcoming practice for healing, growth, and <em>connection</em></h1>
+  <p class="page-sub">Positive Inner Self was created to be a safe, supportive place where people can heal, grow, and reconnect with themselves. We believe care should feel human, respectful, and aligned with each client's story, values, and goals.</p>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>Compassionate Care</span><span>LGBTQIA+ Affirming</span><span>Telehealth Available</span><span>Client-Centered</span><span>Culturally Responsive</span><span>Growth-Oriented</span><span>Safe &amp; Confidential</span><span>Collaborative Approach</span><span>Compassionate Care</span><span>LGBTQIA+ Affirming</span><span>Telehealth Available</span><span>Client-Centered</span><span>Culturally Responsive</span><span>Growth-Oriented</span><span>Safe &amp; Confidential</span><span>Collaborative Approach</span>
+  </div>
+</div>
+
+<!-- MISSION -->
+<div class="mission-section">
+  <div class="section-tag">Our purpose</div>
+  <h2 class="section-title" style="margin-bottom:2rem;">Our <em>Mission</em></h2>
+  <div class="mission-box reveal">
+    <p>"We exist to provide compassionate, accessible mental health and wellness services that honor the whole person. Every interaction is an opportunity to create safety, foster connection, and support lasting change."</p>
+  </div>
+</div>
+
+<!-- BELIEFS -->
+<div class="beliefs-section">
+  <div class="section-tag">Core values</div>
+  <h2 class="section-title">What We <em>Believe</em></h2>
+  <div class="beliefs-grid">
+
+    <div class="belief-card reveal">
+      <div class="belief-icon">💛</div>
+      <div class="belief-name">Compassionate Care</div>
+      <div class="belief-desc">A welcoming environment where clients can feel heard, supported, and respected throughout their journey.</div>
     </div>
-  </header>
 
-  <main id="main">
-    <!-- Hero Section -->
-    <section class="about-hero">
-      <div class="container">
-        <div class="about-content">
-          <div>
-            <span class="hero-badge">Founded with care</span>
-            <h1>A calm, welcoming practice for healing, growth, and <em class="text-accent">connection</em></h1>
-            <p>Positive Inner Self was created to be a safe, supportive place where people can heal, grow, and reconnect with themselves. We believe care should feel human, respectful, and aligned with each client's story, values, and goals.</p>
-            <p>Our practice serves children, teens, adults, couples, and families. We take a collaborative, client-centered approach and offer both counseling and wellness services to support emotional and physical well-being.</p>
-          </div>
-          <div class="about-image">🏡</div>
-        </div>
-      </div>
-    </section>
+    <div class="belief-card reveal reveal-delay-1">
+      <div class="belief-icon">🌍</div>
+      <div class="belief-name">Inclusive &amp; Responsive</div>
+      <div class="belief-desc">Care that honors each person's identity, background, relationships, and lived experience without judgment.</div>
+    </div>
 
-    <!-- Mission Section -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Our <em class="text-accent">Mission</em></h2>
-          <p>We exist to provide compassionate, accessible mental health and wellness services that honor the whole person. Every interaction is an opportunity to create safety, foster connection, and support lasting change.</p>
-        </div>
-      </div>
-    </section>
+    <div class="belief-card reveal reveal-delay-2">
+      <div class="belief-icon">💻</div>
+      <div class="belief-name">Flexible Access</div>
+      <div class="belief-desc">In-person support in Beaverton, plus telehealth options across Oregon to meet clients where they are.</div>
+    </div>
 
-    <!-- Values Section -->
-    <section class="section" style="background: var(--color-primary-light);">
-      <div class="container">
-        <div class="section-header">
-          <h2>What We <em class="text-accent">Believe</em></h2>
-        </div>
-        <div class="values-grid">
-          <div class="card value-card">
-            <div class="value-icon">💛</div>
-            <h3>Compassionate Care</h3>
-            <p>A welcoming environment where clients can feel heard, supported, and respected throughout their journey.</p>
-          </div>
-          <div class="card value-card">
-            <div class="value-icon">🌍</div>
-            <h3>Inclusive & Responsive</h3>
-            <p>Care that honors each person's identity, background, relationships, and lived experience without judgment.</p>
-          </div>
-          <div class="card value-card">
-            <div class="value-icon">💻</div>
-            <h3>Flexible Access</h3>
-            <p>In-person support in Beaverton, plus telehealth options across Oregon to meet clients where they are.</p>
-          </div>
-          <div class="card value-card">
-            <div class="value-icon">🤝</div>
-            <h3>Collaborative Approach</h3>
-            <p>We work alongside clients as partners, respecting their autonomy and expertise in their own lives.</p>
-          </div>
-          <div class="card value-card">
-            <div class="value-icon">🌱</div>
-            <h3>Growth-Oriented</h3>
-            <p>We believe in each person's capacity for change, healing, and personal development at their own pace.</p>
-          </div>
-          <div class="card value-card">
-            <div class="value-icon">🔒</div>
-            <h3>Safe & Confidential</h3>
-            <p>Privacy and safety are foundational to the therapeutic relationship and our practice.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="belief-card reveal reveal-delay-1">
+      <div class="belief-icon">🤝</div>
+      <div class="belief-name">Collaborative Approach</div>
+      <div class="belief-desc">We work alongside clients as partners, respecting their autonomy and expertise in their own lives.</div>
+    </div>
 
-    <!-- History Section -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Our <em class="text-accent">Story</em></h2>
-        </div>
-        <div style="max-width: 800px; margin: 0 auto;">
-          <p>Positive Inner Self began with a simple belief: that everyone deserves access to care that feels genuinely supportive. What started as a small counseling practice has grown into a team of dedicated providers offering a range of services — from individual and family therapy to wellness treatments like massage and acupuncture.</p>
-          <p>Located in Beaverton, Oregon, we've built a practice that reflects the community we serve. Our team brings diverse backgrounds and specialties, united by a shared commitment to client-centered care.</p>
-          <p>We continue to grow and evolve, always guided by our core values and the feedback of those we serve.</p>
-        </div>
-      </div>
-    </section>
+    <div class="belief-card reveal reveal-delay-2">
+      <div class="belief-icon">🌱</div>
+      <div class="belief-name">Growth-Oriented</div>
+      <div class="belief-desc">We believe in each person's capacity for change, healing, and personal development at their own pace.</div>
+    </div>
 
-    <!-- CTA Section -->
-    <section class="section contact-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Ready to <em class="text-accent">Connect?</em></h2>
-          <p>We'd love to hear from you and explore how we can support your journey.</p>
-        </div>
-        <div class="text-center">
-          <a href="contact.html" class="btn btn-primary btn-lg">Request an Appointment</a>
-          <a href="providers.html" class="btn btn-secondary btn-lg">Meet Our Team</a>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="belief-card reveal reveal-delay-3">
+      <div class="belief-icon">🔒</div>
+      <div class="belief-name">Safe &amp; Confidential</div>
+      <div class="belief-desc">Privacy and safety are foundational to the therapeutic relationship and our practice.</div>
+    </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <span class="logo-icon">🌿</span>
-            <span>Positive Inner Self</span>
-          </a>
-          <p>Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
-        </div>
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul class="footer-links">
-            <li><a href="services.html#individual">Individual Counseling</a></li>
-            <li><a href="services.html#family">Family Counseling</a></li>
-            <li><a href="services.html#couples">Couples Counseling</a></li>
-            <li><a href="services.html#groups">Groups & Workshops</a></li>
-            <li><a href="services.html#wellness">Wellness Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Practice</h4>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="providers.html">Our Providers</a></li>
-            <li><a href="rates.html">Rates & Insurance</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portal.html">Client Portal</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Connect</h4>
-          <ul class="footer-links">
-            <li><a href="tel:5034613910">(503) 461-3910</a></li>
-            <li><a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a></li>
-            <li><a href="[maps.google.com](https://maps.google.com)" target="_blank" rel="noopener">Get Directions</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Positive Inner Self. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Facebook">📘</a>
-          <a href="#" aria-label="Instagram">📷</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
+  </div>
+</div>
+
+<!-- OUR STORY -->
+<div class="story-section">
+  <div class="story-text reveal">
+    <div class="section-tag">How we got here</div>
+    <h2 class="section-title" style="margin-bottom:1.5rem;">Our <em>Story</em></h2>
+    <p>Positive Inner Self began with a simple belief: that everyone deserves access to care that feels genuinely supportive. What started as a small counseling practice has grown into a team of dedicated providers offering a range of services — from individual and family therapy to wellness treatments like massage and acupuncture.</p>
+    <p>Located in Beaverton, Oregon, we've built a practice that reflects the community we serve. Our team brings diverse backgrounds and specialties, united by a shared commitment to client-centered care.</p>
+    <p>We continue to grow and evolve, always guided by our core values and the feedback of those we serve.</p>
+    <div style="margin-top:2.5rem; display:flex; gap:1.2rem; flex-wrap:wrap;">
+      <a href="contact.html" class="btn-primary">Request an Appointment</a>
+      <a href="providers.html" class="btn-outline">Meet Our Team</a>
+    </div>
+  </div>
+  <div class="story-visual reveal reveal-delay-2">
+    <div class="story-visual-inner">
+      <span class="icon">🏡</span>
+      Your clinic photo here
+    </div>
+  </div>
+</div>
+
+<!-- BOOKING CTA -->
+<section class="booking-cta">
+  <div class="reveal">
+    <div class="cta-eyebrow">Start your journey</div>
+    <h2 class="cta-title">Ready to <em>connect?</em></h2>
+    <p class="cta-body">We'd love to hear from you and explore how we can support your journey. We respond within one business day.</p>
+    <div class="cta-checks">
+      <div class="cta-check"><span>✓</span> Free initial consultation</div>
+      <div class="cta-check"><span>✓</span> In-person &amp; telehealth</div>
+      <div class="cta-check"><span>✓</span> Insurance accepted</div>
+    </div>
+  </div>
+  <div class="cta-actions reveal reveal-delay-2">
+    <a href="contact.html" class="btn-primary" style="font-size:0.9rem; padding:1.1rem 2.5rem;">Request an Appointment</a>
+    <a href="providers.html" class="cta-phone">👥 Meet Our Team</a>
+    <div class="cta-note">6700 SW 105th Ave Suite 215, Beaverton OR 97008</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="index.html" class="footer-logo">Positive Inner Self</a>
+      <p class="footer-tagline">Compassionate counseling and wellness services in Beaverton, Oregon. Helping people heal, grow, and reconnect.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">ig</a>
+        <a href="#" class="social-btn">in</a>
       </div>
     </div>
-  </footer>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="services.html#individual">Individual Counseling</a>
+      <a href="services.html#family">Family Counseling</a>
+      <a href="services.html#couples">Couples Counseling</a>
+      <a href="services.html#groups">Groups &amp; Workshops</a>
+      <a href="services.html#wellness">Wellness Services</a>
+    </div>
+    <div class="footer-col">
+      <h4>Practice</h4>
+      <a href="about.html">About Us</a>
+      <a href="providers.html">Our Providers</a>
+      <a href="rates.html">Rates &amp; Insurance</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html">Client Portal</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        6700 SW 105th Ave<br>Suite 215<br>Beaverton, OR 97008<br><br>
+        <a href="tel:5034613910">(503) 461-3910</a><br>
+        <a href="mailto:info@positiveinnerself.com">info@positiveinnerself.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Positive Inner Self. All rights reserved.</span>
+    <div style="display:flex; gap:1.5rem;">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
