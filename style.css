@@ -68,14 +68,10 @@ nav.scrolled {
   padding: 1rem 3rem;
   border-bottom: 1px solid rgba(74,124,89,0.12);
 }
-.nav-logo {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.35rem;
-  font-weight: 500;
-  color: var(--sage-deep);
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  line-height: 1.2;
+.nav-logo img {
+  height: 50px;     /* 🔥 adjust this */
+  width: auto;
+  display: block;
 }
 .nav-logo span { display: block; font-size: 0.65rem; font-family: 'DM Sans', sans-serif; font-weight: 300; color: var(--stone); letter-spacing: 0.15em; text-transform: uppercase; margin-top: 1px; }
 .nav-links { display: flex; align-items: center; gap: 2.5rem; }
